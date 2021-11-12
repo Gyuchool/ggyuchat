@@ -9,7 +9,7 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 import java.util.HashMap;
 
 @Component
-public class SocketHandler extends TextWebSocketHandler {
+public class SocketTextHandler extends TextWebSocketHandler {
 
     HashMap<String, WebSocketSession> sessionMap = new HashMap<>(); //웹소켓 세션을 담아둘 맵
 
