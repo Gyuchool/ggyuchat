@@ -1,0 +1,15 @@
+#Tomcat Server Setting
+#JSP??? ?? ????? ?? ??? ? ?? ??
+server:
+  port: 80
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+
+  #JSP, HTML ModelAndView Path Setting
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
