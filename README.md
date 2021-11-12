@@ -67,7 +67,7 @@ public class WebSocketBrokerConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/gs-guide-websocket").withSockJS(); // 웹소켓 연결 주소
+        registry.addEndpoint("/gs-guide-websocket").withSockJS(); // 웹소켓 연결 주소, SockJs 사용 설정 : 지원 안하는 브라우저에서도 사용 가능
     }
 ```
 ### Controller
