@@ -47,7 +47,7 @@
     var ws;
 
     function wsOpen(){
-        ws = new WebSocket("ws://" + location.host + "/chating");
+        ws = new WebSocket("ws://" + location.host + "/chatting");
         wsEvt();
     }
 
